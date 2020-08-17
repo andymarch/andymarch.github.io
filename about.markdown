@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Andy March is a software developer passionate about building secure intuitive software and has been developing secure systems for over ten years.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+He has worked with some of the world’s largest organizations to build software for everything from fighter planes and ATMs to e-passport and customer loyalty programs. He is a firm believer that code wins arguments and the compounding awesomeness of fixing small things.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Now a Senior Platform Specialist at Okta; the leading independent provider of identity for the enterprise, Andy focuses on helping developers use open web standards to deliver unified customer identity in their solutions regardless of platform.
 
-
-[jekyll-organization]: https://github.com/jekyll
