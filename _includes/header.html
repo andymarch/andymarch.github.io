@@ -9,13 +9,13 @@
       </div>
       <div class="header-col header-col-2">
         <ul class="contact-list">    
-          <li><h1 class="header-heading p-name">{{ site.title | escape }}</h1></li>        
+          <li><a href="https://andymarch.co.uk" rel="me" class="u-url"><h1 class="header-heading p-name">{{ site.title | escape }}</h1></a></li>        
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
             <li>{%- include social.html -%}</li>
             <li>
-              <p>{{- site.description | escape -}}</p>
+              <p class="p-note">{{- site.description | escape -}}</p>
             </li>
         </ul>
       </div>
