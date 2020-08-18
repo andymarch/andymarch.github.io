@@ -3,13 +3,13 @@
 
   <div class="wrapper">
 
-    <div class="header-col-wrapper">
+    <div class="header-col-wrapper h-card">
       <div class="header-col header-col-1">
-        <img class="avatar" src="http://gravatar.com/avatar/d7c78f8757327b65a637aece98939f01?s=150"/>
+        <img class="avatar u-photo" src="http://gravatar.com/avatar/d7c78f8757327b65a637aece98939f01?s=150"/>
       </div>
       <div class="header-col header-col-2">
         <ul class="contact-list">    
-          <li><h1 class="header-heading">{{ site.title | escape }}</h1></li>        
+          <li><h1 class="header-heading p-name">{{ site.title | escape }}</h1></li>        
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
