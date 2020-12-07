@@ -26,3 +26,5 @@ For example:
 http://gravatar.com/avatar/d7c78f8757327b65a637aece98939f01?s=100
 
 http://gravatar.com/avatar/d7c78f8757327b65a637aece98939f01?s=250
+
+An uncompressed version can be found [here](/assets/andymarch-speakerheadshot-uncompressed.jpg).
