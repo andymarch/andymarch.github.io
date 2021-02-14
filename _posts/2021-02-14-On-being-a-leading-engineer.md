@@ -2,7 +2,8 @@
 layout: post
 title: "On being a leading engineer"
 date: "2021-02-14"
-tags: reading-material quotes
+tags: reading-material 
+excerpt_separator: <!--more-->
 ---
 
 > I would rather be an engineer who is a manager, rather than a managing engineer, or an office manager, or C-something. I actually enjoy doing the work.
