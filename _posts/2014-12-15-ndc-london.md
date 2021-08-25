@@ -9,7 +9,7 @@ A couple of weeks back I got the opportunity to attend NDC London organised by t
 Like any conference there are the fantastic talks and the ones where you wonder if you've walked into the wrong room. Probably my favourite talk from this years event was Coding Culture by Sven Peters, talking about what makes great engineering team and how to inject enthusiasm and passion into development. His slides and a recording of this talk are [here](http://svenpet.com/talks/coding-culture/), if you can only watch one this is it.
 
 A few of the other highlights for me were:
-
+<!--more-->
 - Jon Skeet demonstrating the scary amount he knows about the Hebrew calendar and confirming date and time is still a pain in the neck. [link](http://ndc-london.oktaset.com/t-28149)
 - "Code is like humour, if you have to explain it it's bad". A crowd driven refactoring session with Cory House. [link](http://ndc-london.oktaset.com/t-27102)
 - "SAML is the Windows XP of online identity". Dominick Baier talking about OpenID Connect. [link](http://ndc-london.oktaset.com/t-28128)

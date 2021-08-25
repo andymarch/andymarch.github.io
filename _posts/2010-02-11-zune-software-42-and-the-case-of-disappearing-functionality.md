@@ -9,7 +9,7 @@ Last week saw the push of the latest release of the Zune desktop software, norma
 Now Microsoft has prior for attempting to block international users from accessing the Zune social, which I have discussed at length here before so rather than drag that up again we'll focus on Smart DJ. Smart DJ was introduced with the Zune 4.0 software and greeted with applause, it provided the functionality to automatically build a playlist of similar songs based on a selected album, track or artist ala last.fm. This feature obviously adds value to the product, and competes well against iTunes Genius playlist, there seems to have been no reason to limit this to US users only.
 
 Fortunately EwanD over on the Zune.net forums has posted a cunning work around which re-enables Smart DJ.
-
+<!--more-->
 "
 
 - Close Zune software

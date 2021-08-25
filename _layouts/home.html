@@ -14,16 +14,29 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+          {% if post.content contains '<!--more-->' %}
+              <div>
+                  {{ post.content | split:'<!--more-->' | first }}
+              </div>
+              <input type="checkbox" class="read-more-state" id="{{ page.url }}"/>
+              <div class="read-more">
+                  {{ post.content | split:'<!--more-->' | last }}
+              </div>
+              <label for="{{ page.url }}" class="read-more-trigger"></label>
+          {% else %}
+              {{ post.content }}
+          {% endif %}
+        </article>
       </li>
       {%- endfor -%}
     </ul>

@@ -5,7 +5,7 @@ date: "2013-01-14"
 ---
 
 Visual Studio 2012 marks a change in cycle for the development tools team as they are changing pace to incorporate regular updates to the product rather than the big bang of a new release every couple of years. Update 1 came out back in November (read more about that [here](http://www.microsoft.com/visualstudio/eng/visual-studio-update#story-update-1)) and I had been running it in the RC without issue. However with my fresh install of Express  I had forgotten this update, launching VS this morning to make a couple of changes I saw the update available reminder. Couple of quick clicks later the download is on its way. Code change done I fired off the update and all seems fine, progress bars, coffee, reboot. Reopen Visual Studio, open solution, none of the projects will load on hitting reload  for a single project and you are greeted with an alert with the text:
-
+<!--more-->
 > The composition produced a single composition error. The root cause is provided below. Review the CompositionException.Errors property for more detailed information.
 > 
 > 1) No exports were found that match the constraint: ContractName    Microsoft.VisualStudio.Shell.Interop.IVsHierarchy RequiredTypeIdentity    Microsoft.VisualStudio.Shell.Interop.IVsHierarchy RequiredCreationPolicy    Shared

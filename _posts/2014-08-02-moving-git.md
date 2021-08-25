@@ -9,7 +9,7 @@ I've been spending some time over the last month or so migrating our git server 
 There are a lot of alternatives out there for git hosting including [GitLab](https://about.gitlab.com/), [Bonobo](http://bonobogitserver.com/), [Stash](https://www.atlassian.com/software/stash) and the 800 pound guerilla of [GitHub enterprise](https://enterprise.github.com/). In the end Stash from Atlassian won out, on premise hosting, great Jira integration and finally low license cost for small teams (which is in fact a donation to [Room to Read](http://www.roomtoread.org/)).
 
 Now we have a shiny new server all set up and running how best to migrate all our existing repositories over without losing history, tags, branches or living in a half and half state while we do so? One of the nicest things about distributed version control systems like git is that this process is much simplier than with large centralised version control systems of old, below are a couple of scripts for making this easier still.
-
+<!--more-->
 # **Moving to a New Remote**
 
 The sequence below will check out everything from your existing repository and check it into your new server of choice.
