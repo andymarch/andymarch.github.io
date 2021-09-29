@@ -4,7 +4,7 @@ title: "API Days - Paris - OAuth by Example Workshop"
 date: "2019-12-09"
 ---
 
-Presenting: [OAuth by Example Workshop](https://andymarch.co.uk/customersinthcrosshairs)
+Presenting: [OAuth by Example Workshop](https://speakerdeck.com/andymarch/oauth-by-example-workshop)
 
 Abstract: Authentication and authorization has come a long way in the last ten years. Are you still rolling your own identity? Don't know the differences between the authorization code grant from and the client credentials grant? Do you want to accept social authentication to your service but you're not sure how?
 
