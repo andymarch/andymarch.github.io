@@ -33,11 +33,11 @@ layout: default
               <div>
                   {{ post.content | split:'<!--more-->' | first }}
               </div>
-              <input type="checkbox" class="read-more-state" id="{{ page.url }}"/>
+              <input type="checkbox" class="read-more-state" id="{{ post.url }}"/>
               <div class="read-more">
                   {{ post.content | split:'<!--more-->' | last }}
               </div>
-              <label for="{{ page.url }}" class="read-more-trigger"></label>
+              <label for="{{ post.url }}" class="read-more-trigger"></label>
           {% else %}
               {{ post.content }}
           {% endif %}
