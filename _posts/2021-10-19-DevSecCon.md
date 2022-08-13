@@ -6,7 +6,11 @@ date: "2021-10-19"
 
 It was an absolulte pleasure to join Waleed to present the refreshed Identity at Code to DevSecCon London. The recording is available on YouTube below
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vTJ5gqemBok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrap">
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vTJ5gqemBok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 
 **Presenting:** [Identity as Code](https://speakerdeck.com/andymarch/identity-as-code)
 
