@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "DevSecCon"
-date: "2021-10-19"
+title: DevSecCon
+date: 2021-10-19T00:00:00+01:00
 ---
 
-It was an absolulte pleasure to join Waleed to present the refreshed Identity at Code to DevSecCon London. The recording is available on YouTube below
+It was an absolute pleasure to join Waleed to present the refreshed Identity at Code to DevSecCon London. The recording is available on YouTube below
 
 <div class="video-wrap">
     <div class="video-container">
