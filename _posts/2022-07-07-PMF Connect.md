@@ -4,7 +4,7 @@ title: "PMF Connect"
 date: "2022-07-07"
 ---
 
-It was an absolulte pleasure to present to the Product Management Festival audience on achieving the frictionless customer experience. The recording is available on YouTube below
+I had the opportunity to present to the Product Management Festival audience on achieving the frictionless customer experience. The recording is available on YouTube below
 <div class="video-wrap">
     <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/wqVjO-h53BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
