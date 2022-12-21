@@ -2,6 +2,7 @@
 layout: post
 title: "PMF Connect"
 date: "2022-07-07"
+tags: speaking
 ---
 
 I had the opportunity to present to the Product Management Festival audience on achieving the frictionless customer experience. The recording is available on YouTube below

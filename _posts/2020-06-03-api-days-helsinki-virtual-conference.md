@@ -2,6 +2,7 @@
 layout: post
 title: "API Days Helsinki - Virtual Conference"
 date: "2020-06-03"
+tags: speaking
 ---
 
 A slightly different speaking experiance as the world tries to contiue during COVID. I swapped Helsinki for my home office to provide content for the first virtual API Days event. The on-site conference has been re-scheduleded for September (which sadly I can't attend). Prerecording the talk to an audience of one was odd but it did make it easier to respond to any questions in the chat during the talk.

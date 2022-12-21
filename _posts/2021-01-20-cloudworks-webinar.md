@@ -2,6 +2,7 @@
 layout: post
 title: "Cloudworks Norway"
 date: "2021-01-21"
+tags: speaking
 ---
 
 Okta's partner, Cloudworks Norway, have been running a fantastic series of webinars for their customers to bring in vendor speakers to dive deep on specific technologies. Arne and Alexander from Cloudworks invited  me to speak with them on the changes we are seeing in CIAM.

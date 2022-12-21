@@ -2,6 +2,7 @@
 layout: post
 title: "Paris Identity Labs"
 date: "2019-09-12"
+tags: speaking
 ---
 
 **Presenting:** [Identity as Code](https://speakerdeck.com/andymarch/identity-as-code)

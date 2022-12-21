@@ -2,6 +2,7 @@
 layout: post
 title: "eCrime Congress Abu Dhabi"
 date: "2019-09-17"
+tags: speaking
 ---
 
 Presenting: [Customers in the Crosshairs](https://andymarch.co.uk/customersinthcrosshairs)
