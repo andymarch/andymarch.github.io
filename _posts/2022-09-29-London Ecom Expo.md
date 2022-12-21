@@ -2,6 +2,7 @@
 layout: post
 title: "eCommerce Expo"
 date: "2022-09-29"
+tags: speaking
 ---
 
 As part of my ongoing work with the Okta events team I shot down to London to present Customers in the Crosshairs at the eCommerce Expo. While I was only there briefly it was a very different event to our normal security focused shows and we had some really good conversations after my talk.
