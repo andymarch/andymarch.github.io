@@ -2,6 +2,7 @@
 layout: post
 title: "API Days - Paris - OAuth by Example Workshop"
 date: "2019-12-09"
+tags: speaking
 ---
 
 Presenting: [OAuth by Example Workshop](https://speakerdeck.com/andymarch/oauth-by-example-workshop)

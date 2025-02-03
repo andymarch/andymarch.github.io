@@ -1,17 +1,13 @@
 ---
 layout: post
-title: "PMF Connect"
-date: "2022-07-07"
+title: "eCommerce Expo"
+date: "2022-09-29"
 tags: speaking
 ---
 
-I had the opportunity to present to the Product Management Festival audience on achieving the frictionless customer experience. The recording is available on YouTube below
-<div class="video-wrap">
-    <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wqVjO-h53BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
+As part of my ongoing work with the Okta events team I shot down to London to present Customers in the Crosshairs at the eCommerce Expo. While I was only there briefly it was a very different event to our normal security focused shows and we had some really good conversations after my talk.
 
+![](/assets/img/ecom-show-22.jpg)
 
 **Presenting:** [Customers in the Crosshairs](https://speakerdeck.com/andymarch/customers-in-the-crosshairs)
 

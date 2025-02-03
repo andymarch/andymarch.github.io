@@ -2,6 +2,7 @@
 layout: post
 title: "National DevOps Conference"
 date: "2019-06-18"
+tags: speaking
 ---
 
 **Presenting:** [Identity as Code](https://speakerdeck.com/andymarch/identity-as-code)

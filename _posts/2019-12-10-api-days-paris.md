@@ -2,6 +2,7 @@
 layout: post
 title: "API Days – Paris"
 date: "2019-12-10"
+tags: speaking
 ---
 
 Presenting: [Customers in the Crosshairs](https://andymarch.co.uk/customersinthcrosshairs)
