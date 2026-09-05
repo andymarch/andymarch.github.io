@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -18,6 +18,17 @@ $brand-color:      #d0353d !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Tonal variants of the existing palette, used for panels/borders on the
+// dark background rather than introducing new hues.
+$surface-color:    lighten($background-color, 5%) !default;
+$border-color:     lighten($background-color, 14%) !default;
+
+// Monospace stack for labels, meta and tags — system fonts only, no new
+// font dependency.
+$mono-font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace !default;
+
+$radius:           10px !default;
 
 $table-text-align: left !default;
 
@@ -44,6 +55,19 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+// Small accent rule used above headings — the recurring "tick" motif.
+@mixin accent-rule {
+  &::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: $brand-color;
+    margin-bottom: $spacing-unit / 2;
+  }
+}
+
 // Import partials.
 @import
   "minima/base",
@@ -52,8 +76,10 @@ $on-laptop:        800px !default;
 ;
 
 .avatar {
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border: 2px solid $grey-color;
-  }
+  display: block;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: $radius * 1.6;
+  border: 2px solid $border-color;
+}

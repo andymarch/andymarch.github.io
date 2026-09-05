@@ -17,7 +17,7 @@ layout: default
       <li>
         {% if post.layout == 'tweet' %}
           <div>
-            <a class="u-url" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
+            <a class="u-url" href="https://x.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#x' | relative_url }}"></use></svg></a>
           </div>
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <i>{{ post.content }}</i>
@@ -56,15 +56,16 @@ layout: default
 
   <aside class="home-sidebar">
     <h2 class="sidebar-heading">Highlights</h2>
-    {%- assign curated_types = "talk,book-note,journal" | split: "," -%}
-    {%- assign curated = site.posts | where_exp: "post", "curated_types contains post.type" | sort: "date" | reverse -%}
-    {%- assign recent = curated | slice: 0, 5 -%}
+    {%- assign highlight_titles = "Imagine If - Ken Robinson|PMF Connect|Paternity & Working Four Day Weeks|Oktane21" | split: "|" -%}
     <ul class="sidebar-list">
-      {%- for post in recent -%}
-      <li>
-        <a class="sidebar-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
+      {%- for highlight_title in highlight_titles -%}
+        {%- assign post = site.posts | where: "title", highlight_title | first -%}
+        {%- if post -%}
+        <li>
+          <a class="sidebar-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+        {%- endif -%}
       {%- endfor -%}
     </ul>
   </aside>

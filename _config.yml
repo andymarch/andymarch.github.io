@@ -22,8 +22,8 @@ title: Andy March
 author: Andy March
 email: mail@andymarch.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Engineering manager at Okta leading a distributed presales development team,
-  still geeking out on infosec, tools and coffee.
+  Leading an engineering team, working through a reading pile, and rarely
+  without a coffee in hand.
 baseurl: "" # the subpath of your site, e.g. /blog
 show_excerpts: true
 url: "https://andymarch.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,6 +32,13 @@ github_username:  andymarch
 linkedin_username: andymarch
 instagram_username: _andymarch_
 image: /assets/img/og-image.jpg
+
+# Explicit nav — otherwise every page with a title (including one-off talk
+# abstract pages like /customersinthecrosshairs/) would show up in the nav.
+header_pages:
+  - about.markdown
+  - archive.markdown
+  - speaking.markdown
 
 # Build settings
 plugins:
