@@ -5,7 +5,8 @@ permalink: /
 
 **Now:** engineering manager at Okta, leading a distributed presales development team of four engineers.
 
-{% assign curated = site.posts | where_exp: "post", "post.type == 'talk' or post.type == 'book-note' or post.type == 'journal'" | sort: "date" | reverse %}
+{% assign curated_types = "talk,book-note,journal" | split: "," %}
+{% assign curated = site.posts | where_exp: "post", "curated_types contains post.type" | sort: "date" | reverse %}
 {% assign recent = curated | slice: 0, 5 %}
 
 <ul class="post-list">
