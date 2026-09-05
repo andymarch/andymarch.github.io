@@ -31,6 +31,7 @@ twitter_username: andymarch
 github_username:  andymarch
 linkedin_username: andymarch
 instagram_username: _andymarch_
+image: /assets/img/og-image.jpg
 
 # Build settings
 plugins:
