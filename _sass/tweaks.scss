@@ -31,7 +31,7 @@
   max-width: calc(800px - (20px * 2));
 }
 
-/* Responsive tables (talks, reading list, archive) */
+/* Responsive tables (talks, reading list) */
 .table-wrap {
   width: 100%;
   overflow-x: auto;
@@ -40,15 +40,85 @@
 }
 
 table.talks-table,
-table.reading-table,
-table.archive-table {
+table.reading-table {
   width: 100%;
   min-width: 480px;
   margin-bottom: 0;
 }
 
 table.talks-table td,
-table.reading-table td,
-table.archive-table td {
+table.reading-table td {
   vertical-align: top;
+}
+
+/* Homepage: infinite-scroll feed + curated sidebar */
+.layout-home .wrapper {
+  max-width: -webkit-calc(#{$content-width} + 280px);
+  max-width:         calc(#{$content-width} + 280px);
+}
+
+.home-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: $spacing-unit;
+}
+
+.home-main {
+  flex: 3 1 480px;
+  min-width: 0;
+}
+
+.home-sidebar {
+  flex: 1 1 240px;
+  max-width: 280px;
+  padding-left: $spacing-unit;
+  border-left: 1px solid $border-color;
+}
+
+.sidebar-heading {
+  @include accent-rule;
+  font-family: $mono-font-family;
+  @include relative-font-size(0.8125);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $grey-color;
+}
+
+.sidebar-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.sidebar-list > li {
+  margin-bottom: $spacing-unit / 2;
+}
+
+.sidebar-link {
+  display: block;
+}
+
+#infinite-scroll-sentinel {
+  text-align: center;
+  color: $grey-color;
+  font-family: $mono-font-family;
+  font-size: $small-font-size;
+  padding: $spacing-unit / 2 0;
+}
+
+@include media-query($on-laptop) {
+  .home-sidebar {
+    flex-basis: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-top: $spacing-unit / 2;
+    border-left: none;
+    border-top: 1px solid $border-color;
+    order: 2;
+  }
+
+  .home-main {
+    order: 1;
+  }
 }
