@@ -57,4 +57,4 @@ An uncompressed version can be found [here](/assets/img/andymarch-speakerheadsho
 </table>
 </div>
 
-Older talks and conferences attended are covered in the [archive]({{ "/archive/" | relative_url }}).
+Older talks and conferences attended are covered on the [home page]({{ "/" | relative_url }}).
