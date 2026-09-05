@@ -2,6 +2,9 @@
 layout: page
 title: Customers in the Crosshairs
 permalink: /customersinthecrosshairs/
+redirect_from:
+  - /customersinthcrosshairs
+  - /customersinthcrosshairs/
 ---
 
 # Abstract
