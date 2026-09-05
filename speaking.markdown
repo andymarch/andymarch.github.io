@@ -59,4 +59,4 @@ All slide decks are also published on [Speaker Deck](https://speakerdeck.com/and
 </table>
 </div>
 
-Older talks and conferences attended are covered on the [home page]({{ "/" | relative_url }}).
+Older talks and conferences attended are covered in the [archive]({{ "/archive/" | relative_url }}).

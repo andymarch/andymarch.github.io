@@ -122,3 +122,75 @@ table.reading-table td {
     order: 1;
   }
 }
+
+/* Archive: a dense, single-page, filterable index (rands-in-repose style) */
+.archive-filter {
+  display: block;
+  width: 100%;
+  margin-bottom: $spacing-unit;
+  padding: 10px 16px;
+  font-family: $mono-font-family;
+  font-size: $small-font-size;
+  color: $text-color;
+  background-color: $surface-color;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+
+  &::placeholder {
+    color: $grey-color;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: $brand-color;
+  }
+}
+
+.archive-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.archive-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid $border-color;
+
+  &:hover {
+    background-color: $surface-color;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.archive-date,
+.archive-type {
+  flex: none;
+  font-family: $mono-font-family;
+  font-size: $small-font-size * 0.8125;
+  color: $grey-color;
+}
+
+.archive-date {
+  width: 90px;
+}
+
+.archive-type {
+  width: 70px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.archive-title {
+  flex: 1 1 240px;
+}
+
+.archive-empty {
+  color: $grey-color;
+  font-style: italic;
+}

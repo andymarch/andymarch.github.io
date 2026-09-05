@@ -38,6 +38,7 @@ image: /assets/img/og-image.jpg
 # abstract pages like /customersinthecrosshairs/) would show up in the nav.
 header_pages:
   - about.markdown
+  - archive.markdown
   - reading.markdown
   - speaking.markdown
 
