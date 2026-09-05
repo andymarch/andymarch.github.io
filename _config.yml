@@ -34,6 +34,13 @@ linkedin_username: andymarch
 instagram_username: _andymarch_
 image: /assets/img/og-image.jpg
 
+# Explicit nav — otherwise every page with a title (including one-off talk
+# abstract pages like /customersinthecrosshairs/) would show up in the nav.
+header_pages:
+  - about.markdown
+  - reading.markdown
+  - speaking.markdown
+
 # Build settings
 plugins:
   - jekyll-feed

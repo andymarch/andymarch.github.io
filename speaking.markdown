@@ -29,6 +29,8 @@ An uncompressed version can be found [here](/assets/img/andymarch-speakerheadsho
 
 # Talks
 
+All slide decks are also published on [Speaker Deck](https://speakerdeck.com/andymarch).
+
 {% assign sorted_talks = site.data.talks | sort: "date" | reverse %}
 <div class="table-wrap">
 <table class="talks-table">
