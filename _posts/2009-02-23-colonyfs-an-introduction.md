@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "ColonyFS an Introduction"
 date: "2009-02-23"

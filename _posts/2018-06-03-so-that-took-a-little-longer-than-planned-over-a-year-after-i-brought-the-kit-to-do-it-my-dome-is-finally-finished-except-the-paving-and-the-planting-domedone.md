@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "So that took a little longer than planned. Over a year after I brought the kit to do it my dome is finally finished....except the paving....and the planting. #domedone"
 date: "2018-06-03"

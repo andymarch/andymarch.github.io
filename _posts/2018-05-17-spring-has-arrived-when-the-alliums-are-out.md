@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Spring has arrived when the Alliums are out"
 date: "2018-05-17"

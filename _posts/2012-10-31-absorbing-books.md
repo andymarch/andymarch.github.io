@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "Absorbing books"
 date: "2012-10-31"

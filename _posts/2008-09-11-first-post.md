@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "First Post!"
 date: "2008-09-11"

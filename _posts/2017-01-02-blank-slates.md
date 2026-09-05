@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "Blank Slates"
 date: "2017-01-02"

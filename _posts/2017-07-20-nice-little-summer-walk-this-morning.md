@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Nice little summer walk this morning"
 date: "2017-07-20"

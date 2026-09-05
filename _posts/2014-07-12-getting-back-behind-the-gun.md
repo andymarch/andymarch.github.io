@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "Getting back behind the gun"
 date: "2014-07-12"

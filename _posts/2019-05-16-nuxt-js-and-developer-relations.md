@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Nuxt.js and Developer Relations"
 date: "2019-05-16"

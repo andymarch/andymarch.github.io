@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "There's always time for a walk in the woods"
 date: "2017-04-23"

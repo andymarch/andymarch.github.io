@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Site Refresh"
 date: "2013-03-20"

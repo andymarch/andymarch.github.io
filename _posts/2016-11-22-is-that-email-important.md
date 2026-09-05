@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "Is that email important"
 date: "2016-11-22"

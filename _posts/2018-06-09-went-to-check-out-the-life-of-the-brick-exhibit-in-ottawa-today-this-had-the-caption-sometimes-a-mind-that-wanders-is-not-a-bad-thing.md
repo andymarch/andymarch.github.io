@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Went to check out the life of the brick exhibit in Ottawa today. This had the caption \"sometimes a mind that wanders is not a bad thing\""
 date: "2018-06-09"

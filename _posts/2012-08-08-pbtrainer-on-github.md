@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "PBTrainer on GitHub"
 date: "2012-08-08"

@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "Where we're going, we don't need roads"
 date: "2015-01-17"

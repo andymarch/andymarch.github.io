@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Amazon Music Store...unleashed on the UK at last!"
 date: "2008-12-04"

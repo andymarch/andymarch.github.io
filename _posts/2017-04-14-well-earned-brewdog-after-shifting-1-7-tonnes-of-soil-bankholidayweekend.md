@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Well earned brewdog after shifting 1.7 tonnes of soil #bankholidayweekend"
 date: "2017-04-14"

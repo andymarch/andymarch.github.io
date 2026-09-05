@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Experiences of an Windows Phone Developer"
 date: "2011-08-30"

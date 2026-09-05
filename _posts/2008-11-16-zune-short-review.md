@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Zune - Short Review"
 date: "2008-11-16"

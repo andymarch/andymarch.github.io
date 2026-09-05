@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "The Search and Audible"
 date: "2008-10-16"

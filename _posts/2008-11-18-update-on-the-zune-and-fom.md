@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Update on the Zune and FOM"
 date: "2008-11-18"

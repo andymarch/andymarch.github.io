@@ -1,4 +1,5 @@
 ---
+type: book-note
 layout: post
 title: "Imagine If - Ken Robinson"
 date: "2025-01-12"

@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Covered 25 miles across San Francisco this weekend and found this awesome spot to watch the sun go down."
 date: "2018-11-12"

@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Autumn may be here but the garden is still going strong"
 date: "2018-09-22"

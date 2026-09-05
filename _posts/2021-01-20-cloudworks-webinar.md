@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "Cloudworks Norway"
 date: "2021-01-21"

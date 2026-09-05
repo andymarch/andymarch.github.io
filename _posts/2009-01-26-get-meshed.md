@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Get Meshed"
 date: "2009-01-26"

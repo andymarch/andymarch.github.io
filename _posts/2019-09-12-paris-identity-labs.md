@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "Paris Identity Labs"
 date: "2019-09-12"

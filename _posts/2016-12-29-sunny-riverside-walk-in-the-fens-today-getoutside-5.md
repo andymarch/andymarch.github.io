@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Sunny riverside walk in the fens today #getoutside"
 date: "2016-12-29"

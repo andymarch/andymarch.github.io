@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "Reading Entity gets Tanked"
 date: "2010-10-14"

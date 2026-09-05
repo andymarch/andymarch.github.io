@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Firesheep, making Facebook hi-jacking even easier"
 date: "2010-10-25"

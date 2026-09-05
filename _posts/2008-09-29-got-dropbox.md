@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Got DropBox?"
 date: "2008-09-29"

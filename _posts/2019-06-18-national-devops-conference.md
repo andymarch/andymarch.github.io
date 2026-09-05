@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "National DevOps Conference"
 date: "2019-06-18"

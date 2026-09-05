@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "On readable software"
 date: "2018-01-13"

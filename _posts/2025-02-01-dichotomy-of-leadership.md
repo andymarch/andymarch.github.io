@@ -1,4 +1,5 @@
 ---
+type: book-note
 layout: post
 title: "The Dichotomy of Leadership - Jocko Willink"
 date: "2025-02-01"

@@ -1,4 +1,5 @@
 ---
+type: journal
 layout: post
 title: "Not dead merely sleeping"
 date: "2009-11-09"

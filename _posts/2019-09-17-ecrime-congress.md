@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "eCrime Congress Abu Dhabi"
 date: "2019-09-17"

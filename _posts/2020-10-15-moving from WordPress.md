@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Moving from WordPress"
 date: "2020-10-15"

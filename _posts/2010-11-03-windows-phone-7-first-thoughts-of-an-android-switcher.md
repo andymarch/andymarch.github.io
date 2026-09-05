@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Windows Phone 7 First Thoughts of an Android switcher"
 date: "2010-11-03"

@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Olympic Twitter data mining"
 date: "2012-07-28"

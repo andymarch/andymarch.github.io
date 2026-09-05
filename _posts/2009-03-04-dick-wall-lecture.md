@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "Dick Wall Open Lecture"
 date: "2009-03-04"

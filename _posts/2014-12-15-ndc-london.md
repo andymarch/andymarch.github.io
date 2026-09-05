@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "NDC London"
 date: "2014-12-15"

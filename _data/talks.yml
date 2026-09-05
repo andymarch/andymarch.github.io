@@ -1,0 +1,145 @@
+- title: "Identity as Code"
+  event: "National DevOps Conference"
+  date: "2019-06-18"
+  deck_url: "https://speakerdeck.com/andymarch/identity-as-code"
+  video_url:
+  abstract: >-
+    Users now have more complex identities than ever before; federated
+    accounts, second-factor authentication, and multiple devices all these
+    conditions need to be tested, but how? This talk will examine the
+    minefield of identity and authentication in your pipeline and how your
+    team can traverse this to ensure that you are testing all the conditions
+    without resorting to manual steps.
+
+- title: "Identity as Code"
+  event: "Paris Identity Labs"
+  date: "2019-09-12"
+  deck_url: "https://speakerdeck.com/andymarch/identity-as-code"
+  video_url:
+  abstract: >-
+    Users now have more complex identities than ever before; federated
+    accounts, second-factor authentication, and multiple devices all these
+    conditions need to be tested, but how? This talk will examine the
+    minefield of identity and authentication in your pipeline and how your
+    team can traverse this to ensure that you are testing all the conditions
+    without resorting to manual steps.
+
+- title: "TLDR: OAuth"
+  event: "Paris Identity Labs"
+  date: "2019-09-12"
+  deck_url: "https://speakerdeck.com/andymarch/tldr-oauth"
+  video_url:
+  abstract: >-
+    An introduction to modern web authentication and authorization and how we
+    got here and the road bumps along the way.
+
+- title: "OAuth by Example Workshop"
+  event: "API Days Paris"
+  date: "2019-12-09"
+  deck_url: "https://speakerdeck.com/andymarch/oauth-by-example-workshop"
+  video_url:
+  abstract: >-
+    Authentication and authorization has come a long way in the last ten
+    years. Are you still rolling your own identity? Don't know the
+    differences between the authorization code grant and the client
+    credentials grant? Do you want to accept social authentication to your
+    service but you're not sure how? This workshop reviews OAuth and OIDC,
+    their history, the problems they solve and how to apply them to your
+    services, including configuring Okta as an identity provider and
+    deploying a simple web app enforcing authentication and authorization.
+
+- title: "Customers in the Crosshairs"
+  event: "API Days Paris"
+  date: "2019-12-10"
+  deck_url: "https://speakerdeck.com/andymarch/customers-in-the-crosshairs"
+  video_url:
+  abstract: >-
+    As users now expect more from the organisations they interact with
+    online, managing the identity of your customers is becoming much more
+    complex. Password dumps, multiple devices and poor MFA adoption put
+    pressure on security and development teams, all while your competition
+    waits in the wings to offer an alternative if your offering doesn't meet
+    the customer's expectations.
+
+- title: "Avoid losing customers with a poor registration solution"
+  event: "Cloudworks Norway"
+  date: "2021-01-21"
+  deck_url:
+  video_url: "https://info.cloudworks.no/opptak-webinar-ciam"
+  abstract: >-
+    Together with Andy March, IAM architect Arne Vedø-Hansen at Cloudworks
+    talks about how a Customer Identity and Access Management (CIAM)
+    solution enables a company to offer a secure registration and login
+    experience for its customers.
+
+- title: "Captivate Your Target Audience with an All-Around Customer Identity Experience"
+  event: "Oktane21"
+  date: "2021-04-19"
+  deck_url:
+  video_url: "https://www.youtube.com/watch?v=UkzOp7D69LQ&list=PLIid085fSVduHYQWZhm5vqcIK9m_BYYZ3"
+  abstract: >-
+    Great customer experiences are no longer just nice to have, they're a key
+    differentiator between you and your competitors. Achieving a true
+    360-degree view of your users requires a digital identity platform that
+    tracks all of their interactions online and offline, while ensuring a
+    secure, seamless and straightforward experience at every touch point
+    along the customer journey.
+
+- title: "Customers in the Crosshairs"
+  event: "IDC Future of Work"
+  date: "2021-09-16"
+  deck_url:
+  video_url: "https://www.youtube.com/watch?v=UkzOp7D69LQ&list=PLIid085fSVduHYQWZhm5vqcIK9m_BYYZ3"
+  abstract: >-
+    A look at the threats facing customer identity, the impact those threats
+    can have on an organisation, and how to build a customer identity
+    platform that protects customers while still providing a great user
+    experience.
+
+- title: "Identity as Code"
+  event: "DevSecCon London"
+  date: "2021-10-19"
+  deck_url: "https://speakerdeck.com/andymarch/identity-as-code"
+  video_url: "https://www.youtube.com/watch?v=vTJ5gqemBok"
+  abstract: >-
+    Users now have more complex identities than ever before; federated
+    accounts, second-factor authentication, and multiple devices all these
+    conditions need to be tested, but how? This talk examines the minefield
+    of identity and authentication in your pipeline and how your team can
+    manage identity as an architectural component without resorting to
+    manual steps.
+
+- title: "Customers in the Crosshairs"
+  event: "DTX22"
+  date: "2022-04-27"
+  deck_url: "https://speakerdeck.com/andymarch/customers-in-the-crosshairs"
+  video_url:
+  abstract: >-
+    As users now expect more from the organisations they interact with
+    online, managing the identity of your customers is becoming much more
+    complex. Password dumps, multiple devices and poor MFA adoption put
+    pressure on security and development teams, all while your competition
+    waits in the wings to offer an alternative if your offering doesn't meet
+    the customer's expectations.
+
+- title: "Customers in the Crosshairs"
+  event: "PMF Connect"
+  date: "2022-07-07"
+  deck_url: "https://speakerdeck.com/andymarch/customers-in-the-crosshairs"
+  video_url: "https://www.youtube.com/watch?v=wqVjO-h53BI"
+  abstract: >-
+    A talk to the Product Management Festival audience on achieving a
+    frictionless customer experience.
+
+- title: "Customers in the Crosshairs"
+  event: "eCommerce Expo"
+  date: "2022-09-29"
+  deck_url: "https://speakerdeck.com/andymarch/customers-in-the-crosshairs"
+  video_url:
+  abstract: >-
+    As users now expect more from the organisations they interact with
+    online, managing the identity of your customers is becoming much more
+    complex. Password dumps, multiple devices and poor MFA adoption put
+    pressure on security and development teams, all while your competition
+    waits in the wings to offer an alternative if your offering doesn't meet
+    the customer's expectations.

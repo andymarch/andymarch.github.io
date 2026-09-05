@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "That post Christmas slump"
 date: "2018-12-27"

@@ -1,4 +1,5 @@
 ---
+type: book-note
 layout: post
 title: "The Beauty of Everyday Things - Soetsu Yanagi"
 date: "2025-01-09"

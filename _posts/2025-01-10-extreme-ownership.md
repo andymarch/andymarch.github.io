@@ -1,4 +1,5 @@
 ---
+type: book-note
 layout: post
 title: "Extreme Ownership - Jocko Willink"
 date: "2025-01-10"

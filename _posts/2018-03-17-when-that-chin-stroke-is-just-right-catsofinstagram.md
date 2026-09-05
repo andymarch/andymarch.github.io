@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Time spent with cats is never wasted"
 date: "2018-03-17"

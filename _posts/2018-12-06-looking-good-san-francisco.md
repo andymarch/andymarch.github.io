@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Looking good San Francisco"
 date: "2018-12-06"

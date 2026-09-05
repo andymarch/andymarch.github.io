@@ -1,4 +1,5 @@
 ---
+type: book-note
 layout: post
 title: "On being a leading engineer"
 date: "2021-02-14"

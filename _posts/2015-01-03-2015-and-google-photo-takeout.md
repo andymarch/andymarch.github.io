@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "2015 and Google Photo TakeOut"
 date: "2015-01-03"

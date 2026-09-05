@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Ely Cathedral in the winter sun this morning"
 date: "2016-11-29"

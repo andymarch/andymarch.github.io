@@ -26,3 +26,35 @@ http://gravatar.com/avatar/d7c78f8757327b65a637aece98939f01?s=100
 http://gravatar.com/avatar/d7c78f8757327b65a637aece98939f01?s=250
 
 An uncompressed version can be found [here](/assets/img/andymarch-speakerheadshot-uncompressed.jpg).
+
+# Talks
+
+{% assign sorted_talks = site.data.talks | sort: "date" | reverse %}
+<div class="table-wrap">
+<table class="talks-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Event</th>
+      <th>Talk</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- for talk in sorted_talks -%}
+    <tr>
+      <td>{{ talk.date | date: "%b %Y" }}</td>
+      <td>{{ talk.event }}</td>
+      <td>{{ talk.title }}</td>
+      <td>
+        {%- if talk.deck_url -%}<a href="{{ talk.deck_url }}">Slides</a>{%- endif -%}
+        {%- if talk.deck_url and talk.video_url %} &middot; {% endif -%}
+        {%- if talk.video_url -%}<a href="{{ talk.video_url }}">Video</a>{%- endif -%}
+      </td>
+    </tr>
+    {%- endfor -%}
+  </tbody>
+</table>
+</div>
+
+Older talks and conferences attended are covered in the [archive]({{ "/archive/" | relative_url }}).

@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Zune Software 4.2 and the case of disappearing functionality"
 date: "2010-02-11"

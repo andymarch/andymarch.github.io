@@ -30,3 +30,35 @@
   width: 100%;
   max-width: calc(800px - (20px * 2));
 }
+
+/* Responsive tables (talks, reading list, archive) */
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table.talks-table,
+table.reading-table,
+table.archive-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 480px;
+}
+
+table.talks-table th,
+table.talks-table td,
+table.reading-table th,
+table.reading-table td,
+table.archive-table th,
+table.archive-table td {
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+table.talks-table th,
+table.reading-table th,
+table.archive-table th {
+  border-bottom: 2px solid #ccc;
+}

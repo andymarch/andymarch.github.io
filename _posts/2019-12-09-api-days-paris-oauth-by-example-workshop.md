@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "API Days - Paris - OAuth by Example Workshop"
 date: "2019-12-09"

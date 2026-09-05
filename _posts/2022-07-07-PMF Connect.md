@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "PMF Connect"
 date: "2022-07-07"

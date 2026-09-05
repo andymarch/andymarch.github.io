@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Zune Social - Success at Last!"
 date: "2009-02-02"

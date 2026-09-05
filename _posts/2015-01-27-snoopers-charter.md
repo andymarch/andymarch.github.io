@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Snoopers Charter"
 date: "2015-01-27"

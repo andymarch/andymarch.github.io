@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Mailing List Automation"
 date: "2009-01-14"

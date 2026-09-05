@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Sometimes jet lag has its advantages, caught the sunrise today"
 date: "2018-11-07"

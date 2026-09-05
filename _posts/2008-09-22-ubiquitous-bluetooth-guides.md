@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Ubiquitous Bluetooth Guides"
 date: "2008-09-22"

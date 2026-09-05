@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Moving Git"
 date: "2014-08-02"

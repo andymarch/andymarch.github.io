@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: DevSecCon
 date: "2021-10-19"

@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "I'm back in Vegas, but the mountains beyond are calling..."
 date: "2020-02-16"

@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Fixing C++ project load failure in Visual Studio 2012 Update 1"
 date: "2013-01-14"

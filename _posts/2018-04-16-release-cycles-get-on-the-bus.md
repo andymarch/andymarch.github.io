@@ -1,4 +1,5 @@
 ---
+type: dev
 layout: post
 title: "Release Cycles - get on the bus"
 date: "2018-04-16"

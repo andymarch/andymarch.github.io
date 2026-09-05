@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "API Days Helsinki - Virtual Conference"
 date: "2020-06-03"

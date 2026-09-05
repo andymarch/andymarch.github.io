@@ -1,4 +1,5 @@
 ---
+type: photo
 layout: post
 title: "Salisbury Cathedral"
 date: "2014-11-09"

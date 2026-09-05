@@ -1,4 +1,5 @@
 ---
+type: talk
 layout: post
 title: "eCommerce Expo"
 date: "2022-09-29"
