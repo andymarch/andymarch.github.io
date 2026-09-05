@@ -99,6 +99,12 @@ table.reading-table td {
   display: block;
 }
 
+.sidebar-list .post-meta {
+  position: static;
+  display: block;
+  margin-top: 4px;
+}
+
 #infinite-scroll-sentinel {
   text-align: center;
   color: $grey-color;

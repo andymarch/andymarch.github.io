@@ -39,7 +39,6 @@ image: /assets/img/og-image.jpg
 header_pages:
   - about.markdown
   - archive.markdown
-  - reading.markdown
   - speaking.markdown
 
 # Build settings
