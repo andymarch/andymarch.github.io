@@ -8,8 +8,11 @@
         <img class="avatar u-photo" src="http://gravatar.com/avatar/d7c78f8757327b65a637aece98939f01?s=150"/>
       </div>
       <div class="header-col header-col-2">
-        <ul class="contact-list">    
-          <li><a href="https://andymarch.co.uk/" rel="me" class="u-url"><h1 class="header-heading p-name">{{ site.title | escape }}</h1></a></li>        
+        {%- if site.tagline -%}
+        <p class="site-eyebrow">{{ site.tagline }}</p>
+        {%- endif -%}
+        <ul class="contact-list">
+          <li><a href="https://andymarch.co.uk/" rel="me" class="u-url"><h1 class="site-title p-name">{{ site.title | escape }}</h1></a></li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}

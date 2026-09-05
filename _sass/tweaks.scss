@@ -4,7 +4,7 @@
 }
 
 .svg-icon:hover {
-  fill: white;
+  fill: $brand-color;
 }
 
 /* Set your aspect ratio */
@@ -35,30 +35,20 @@
 .table-wrap {
   width: 100%;
   overflow-x: auto;
+  border: 1px solid $border-color;
+  border-radius: $radius;
 }
 
 table.talks-table,
 table.reading-table,
 table.archive-table {
-  border-collapse: collapse;
   width: 100%;
   min-width: 480px;
+  margin-bottom: 0;
 }
 
-table.talks-table th,
 table.talks-table td,
-table.reading-table th,
 table.reading-table td,
-table.archive-table th,
 table.archive-table td {
-  text-align: left;
-  padding: 8px 12px;
-  border-bottom: 1px solid #e8e8e8;
   vertical-align: top;
-}
-
-table.talks-table th,
-table.reading-table th,
-table.archive-table th {
-  border-bottom: 2px solid #ccc;
 }

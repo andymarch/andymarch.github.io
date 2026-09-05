@@ -27,13 +27,21 @@
 
 .read-more-trigger {
   cursor: pointer;
-  padding: 1em .5em;
-  color: #d0353d;
-  font-size: .9em;
+  padding: .6em 1.25em;
+  color: $brand-color;
+  font-family: $mono-font-family;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: .08em;
   line-height: 2;
-  border: 1px solid #d0353d;
-  border-radius: .25em;
-  font-weight: 500;
-  display: grid;
+  border: 1px solid $brand-color;
+  border-radius: 999px;
+  font-weight: 400;
+  display: inline-grid;
   text-align: center;
+
+  &:hover {
+    color: $background-color;
+    background-color: $brand-color;
+  }
 }
