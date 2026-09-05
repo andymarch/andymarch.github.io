@@ -13,4 +13,5 @@ Google offers a TakeOut facility to let you retrieve any of the data Google hold
 
  
 
-\[caption id="attachment\_292" align="aligncenter" width="199"\][![Waverley Abbey](/assets/img/DSC02373-199x300.jpg)](http://andymarch.co.uk/wp-content/uploads/2015/01/DSC02373.jpg) Waverley Abbey in the setting sun\[/caption\]
+![Waverley Abbey](/assets/img/DSC02373-199x300.jpg)
+*Waverley Abbey in the setting sun*

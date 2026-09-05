@@ -39,7 +39,7 @@ So I'm not alone that's always a good start, less good is that all are closed an
 
 After spending the best part of an hour searching, repairing and patching, Windows update kicked in on our schedule and prompted to check for yet more updates. Sitting right at the top of the list was [KB2781514](http://support.microsoft.com/kb/2781514). Now that looks a little more helpful than a disk format.
 
-[![KB2781514](/assets/img/bugfix-300x128.png)](http://andymarch.co.uk/wp-content/uploads/2013/01/bugfix.png)
+![KB2781514](/assets/img/bugfix-300x128.png)
 
 The additional information doesn't hint at a cause or even mention the issue shown in the short description above, instead it only states that it improves the stability of Visual Studio. With the patch applied normality is restored and projects once more load successfully.
 

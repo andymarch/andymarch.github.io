@@ -11,4 +11,4 @@ Well four years after I started there I have graduated from the University of Ke
 
 I've been very fortunate that I've been able to secure myself a job, which I will not go into on here for many reasons. Its nice to be in a position to apply what I have learnt over the last four years, spend my working day with people who have an genuine interest in technology and most of all enjoy the work I do. After all what is a 40+ hour working week if you are only waiting for the other 128 hours?
 
-[![](/assets/img/graduation-300x225.jpg "Graduation at Canterbury Cathedral")](http://andymarch.co.uk/wp-content/uploads/2009/11/graduation.jpg)
+![](/assets/img/graduation-300x225.jpg "Graduation at Canterbury Cathedral")

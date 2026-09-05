@@ -9,6 +9,7 @@ For the last month or so I have been playing with WordPress themes and bootstrap
 
 The image above is just a part of one my favorite photographs. I took this at [Reculver](http://en.wikipedia.org/wiki/Reculver "Reculver") in Kent at sunset with my Sony NEX5. On the to-do list is a better photo plug-in so I can post a few more of these photos until I get that sorted here is a link to the full image.
 
-\[caption id="attachment\_215" align="aligncenter" width="300"\][![Reculver at sunset](/assets/img/DSC01796-300x199.jpg)](http://andymarch.co.uk/wp-content/uploads/2013/03/DSC01796.jpg) Reculver at sunset\[/caption\]
+![Reculver at sunset](/assets/img/DSC01796-300x199.jpg)
+*Reculver at sunset*
 
 If you fancy having a look around the theme code it's all on [GitHub](https://github.com/andymarch/wp-harness "WP-Harness on GitHub").

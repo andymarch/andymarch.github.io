@@ -11,4 +11,5 @@ Caught a nice bit of setting winter sun through the branches of this tree in the
 
  
 
-\[caption id="attachment\_272" align="aligncenter" width="300"\][![All rights reserved](/assets/img/DSC02157-300x224.jpg)](https://andymarch.co.uk/wp-content/uploads/2014/11/DSC02157.jpg) The sun in the cloister\[/caption\]
+![All rights reserved](/assets/img/DSC02157-300x224.jpg)
+*The sun in the cloister*

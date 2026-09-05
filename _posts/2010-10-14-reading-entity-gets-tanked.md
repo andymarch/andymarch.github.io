@@ -7,7 +7,7 @@ date: "2010-10-14"
 
 Have been meaning to post these up for a while but here they are at last, the 2011 Reading Entity jersey!
 
-[![Reading Entity 2011 Jersey](/assets/img/P1060650-225x300.jpg)](http://andymarch.co.uk/wp-content/uploads/2010/09/P1060650.jpg) [![Reading Entity 2011 jersey](/assets/img/P1060649-225x300.jpg)](http://andymarch.co.uk/wp-content/uploads/2010/09/P1060649.jpg)
+![Reading Entity 2011 Jersey](/assets/img/P1060650-225x300.jpg) ![Reading Entity 2011 jersey](/assets/img/P1060649-225x300.jpg)
 
  
 
