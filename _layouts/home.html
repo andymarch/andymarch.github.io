@@ -2,21 +2,22 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<div class="home-layout">
+  <div class="home-main">
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
 
-  {{ content }}
+    {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
+    {%- assign posts = paginator.posts | default: site.posts -%}
+    {%- if posts.size > 0 -%}
+    <ul class="post-list" id="post-list">
+      {%- for post in posts -%}
       <li>
         {% if post.layout == 'tweet' %}
           <div>
-            <a class="u-url" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>  </a></a>          
+            <a class="u-url" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
           </div>
           <span class="post-meta">{{ post.date | date: date_format }}</span>
           <i>{{ post.content }}</i>
@@ -41,13 +42,32 @@ layout: default
           {% else %}
               {{ post.content }}
           {% endif %}
-          {% endif %}
+        {% endif %}
         </article>
       </li>
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+    <div id="infinite-scroll-sentinel"{% if paginator.next_page_path %} data-next="{{ paginator.next_page_path | relative_url }}"{% endif %}></div>
 
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endif -%}
+  </div>
+
+  <aside class="home-sidebar">
+    <h2 class="sidebar-heading">Highlights</h2>
+    {%- assign curated_types = "talk,book-note,journal" | split: "," -%}
+    {%- assign curated = site.posts | where_exp: "post", "curated_types contains post.type" | sort: "date" | reverse -%}
+    {%- assign recent = curated | slice: 0, 5 -%}
+    <ul class="sidebar-list">
+      {%- for post in recent -%}
+      <li>
+        <a class="sidebar-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </aside>
 </div>
+
+<script src="{{ '/assets/js/infinite-scroll.js' | relative_url }}" defer></script>

@@ -31,15 +31,14 @@
   max-width: calc(800px - (20px * 2));
 }
 
-/* Responsive tables (talks, reading list, archive) */
+/* Responsive tables (talks, reading list) */
 .table-wrap {
   width: 100%;
   overflow-x: auto;
 }
 
 table.talks-table,
-table.reading-table,
-table.archive-table {
+table.reading-table {
   border-collapse: collapse;
   width: 100%;
   min-width: 480px;
@@ -48,9 +47,7 @@ table.archive-table {
 table.talks-table th,
 table.talks-table td,
 table.reading-table th,
-table.reading-table td,
-table.archive-table th,
-table.archive-table td {
+table.reading-table td {
   text-align: left;
   padding: 8px 12px;
   border-bottom: 1px solid #e8e8e8;
@@ -58,7 +55,72 @@ table.archive-table td {
 }
 
 table.talks-table th,
-table.reading-table th,
-table.archive-table th {
+table.reading-table th {
   border-bottom: 2px solid #ccc;
+}
+
+/* Homepage: infinite-scroll feed + curated sidebar */
+.layout-home .wrapper {
+  max-width: -webkit-calc(#{$content-width} + 280px);
+  max-width:         calc(#{$content-width} + 280px);
+}
+
+.home-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: $spacing-unit;
+}
+
+.home-main {
+  flex: 3 1 480px;
+  min-width: 0;
+}
+
+.home-sidebar {
+  flex: 1 1 240px;
+  max-width: 280px;
+  padding-left: $spacing-unit;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.sidebar-heading {
+  @include relative-font-size(1.125);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.sidebar-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.sidebar-list > li {
+  margin-bottom: $spacing-unit / 2;
+}
+
+.sidebar-link {
+  display: block;
+}
+
+#infinite-scroll-sentinel {
+  text-align: center;
+  color: $grey-color;
+  font-size: $small-font-size;
+  padding: $spacing-unit / 2 0;
+}
+
+@include media-query($on-laptop) {
+  .home-sidebar {
+    flex-basis: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-top: $spacing-unit / 2;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    order: 2;
+  }
+
+  .home-main {
+    order: 1;
+  }
 }
