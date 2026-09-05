@@ -30,6 +30,4 @@ Every post on this site, newest first — start typing to filter by title, type,
 
 <p class="archive-empty" id="archive-empty" hidden>Nothing matches that.</p>
 
-Also see [ColonyFS](/colonyfs/), a static archived project page from 2009 that predates this Jekyll site.
-
 <script src="{{ '/assets/js/archive-filter.js' | relative_url }}" defer></script>
