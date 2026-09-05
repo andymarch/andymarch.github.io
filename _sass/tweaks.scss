@@ -151,6 +151,25 @@ table.reading-table td {
   list-style: none;
 }
 
+.archive-year {
+  display: block;
+  margin-top: $spacing-unit * 1.5;
+  padding-bottom: 6px;
+  font-weight: 700;
+  @include relative-font-size(1.75);
+  letter-spacing: -0.02em;
+  color: $text-color;
+  border-bottom: 2px solid $border-color;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
 .archive-row {
   display: flex;
   flex-wrap: wrap;
