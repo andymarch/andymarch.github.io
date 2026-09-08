@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The GitHub access token lives in an EncryptedSharedPreferences file whose key
+  is tied to this device's Android Keystore entry. Excluding it from backup
+  avoids restoring an unreadable, undecryptable blob onto a new device -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="secret_shared_prefs.xml" />
+</full-backup-content>

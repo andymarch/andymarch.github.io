@@ -1,0 +1,8 @@
+<resources>
+    <!--
+      This is only the bridging theme applied before Compose takes over in
+      MainActivity; all real theming (colors, dynamic color, dark mode) lives
+      in ui/theme/Theme.kt.
+    -->
+    <style name="Theme.JekyllPoster" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
